@@ -1,0 +1,41 @@
+{
+  "name": "anabell-proxy",
+  "version": "1.0.0",
+  "description": "Anabell's proxy server for a sample product detail page of Nike",
+  "author": "Anabell Chiu-Carag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RPT23-Simplicity/anabell-proxy/issues"
+  },
+  "homepage": "https://github.com/RPT23-Simplicity/anabell-proxy#readme",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js --trace-deprecation",
+    "test": "jest --watch --coverage"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "babel": "^6.23.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint": "^7.10.0",
+    "express": "^4.17.1",
+    "jest": "^26.4.2",
+    "jquery": "^3.5.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "webpack": "^2.2.1",
+    "webpack-cli": "^4.0.0"
+  }
+}
