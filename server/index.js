@@ -22,6 +22,6 @@ server.use(parser.json());
 server.use('/', express.static(__dirname + './../client/dist'));
 
 // server starts to listen on port #
-server.listen(3009, function() {
+server.listen(3010, function() {
   console.log('Anabell\'s proxy is listening on port 3009!');
 });

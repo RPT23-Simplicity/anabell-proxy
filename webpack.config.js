@@ -6,7 +6,7 @@ module.exports = {
   entry: `${SRC_DIR}/index.jsx`,
   output: {
     path: DEST_DIR,
-    filename: 'product-bundle.js'
+    filename: 'proxy-bundle.js'
   },
   module: {
     rules: [
