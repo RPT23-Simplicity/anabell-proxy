@@ -20,6 +20,7 @@ server.use(parser.json());
 
 // serve client files
 server.use('/', express.static(__dirname + './../client/dist'));
+app.use('/shop/:productId/:styleId', express.static(__dirname + './../client/dist'));
 
 // server starts to listen on port #
 server.listen(3009, function() {
