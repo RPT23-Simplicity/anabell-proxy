@@ -9,9 +9,8 @@
   },
   "homepage": "https://github.com/RPT23-Simplicity/anabell-proxy#readme",
   "scripts": {
-    "react-dev": "webpack -d --watch",
     "start": "nodemon server/index.js --trace-deprecation",
-    "test": "jest --watch --coverage"
+    "test": "jest"
   },
   "dependencies": {
     "@babel/polyfill": "^7.11.5",
