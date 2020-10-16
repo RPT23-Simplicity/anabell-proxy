@@ -3,15 +3,9 @@ var express = require('express');
 //middleware
 var morgan = require('morgan');
 var parser = require('body-parser');
-const cors = require('cors');
 
 // run express server
 var server = express();
-
-// enable CORS
-server.use(cors({
-  origin: '*',
-}));
 
 // logging & parsing
 server.use(morgan('dev'));
