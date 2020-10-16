@@ -1,11 +1,11 @@
-var express = require('express');
+const express = require('express');
 
 //middleware
-var morgan = require('morgan');
-var parser = require('body-parser');
+const morgan = require('morgan');
+const parser = require('body-parser');
 
 // run express server
-var server = express();
+const server = express();
 
 // logging & parsing
 server.use(morgan('dev'));
