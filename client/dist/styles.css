@@ -1,0 +1,32 @@
+#app {
+  display: flex;
+}
+
+#left-col {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 2;
+}
+
+#right-col {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+}
+
+#photo-module {
+  display: flex;
+}
+
+#product-module {
+  display: flex;
+}
+
+#inventory-module {
+  display: flex;
+}
+
+#reviews-module {
+  display: flex;
+}
+
