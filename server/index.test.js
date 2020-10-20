@@ -64,3 +64,12 @@ describe('Reviews Service', function () {
       .expect(200, done);
   })
 });
+
+describe('Proxy Server', function () {
+  it('responds with html', function(done) {
+    request('http://localhost:3009')
+      .get('/shop/1/1/')
+      .expect('Content-Type', 'text/html; charset=UTF-8')
+      .expect(200, done);
+  });
+});
