@@ -10,7 +10,7 @@
   "homepage": "https://github.com/RPT23-Simplicity/anabell-proxy#readme",
   "scripts": {
     "start": "nodemon server/index.js --trace-deprecation",
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "dependencies": {
     "@babel/polyfill": "^7.11.5",
@@ -34,6 +34,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "supertest": "^5.0.0",
     "webpack": "^2.2.1",
     "webpack-cli": "^4.0.0"
   }
