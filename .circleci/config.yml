@@ -13,4 +13,4 @@ jobs:
       - node/no-cache:
           steps:
             - run: npm install
-      - run: npm run test
+
