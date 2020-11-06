@@ -17,6 +17,6 @@ server.use('/', express.static(__dirname + './../client/dist'));
 server.use('/shop/:productId/:styleId', express.static(__dirname + './../client/dist'));
 
 // server starts to listen on port #
-server.listen(3009, function() {
-  console.log('Anabell\'s proxy is listening on port 3009!');
+server.listen(80, function() {
+  console.log('Anabell\'s proxy is listening on port 80!');
 });
