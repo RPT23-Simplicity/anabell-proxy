@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/RPT23-Simplicity/anabell-proxy#readme",
   "scripts": {
-    "start": "nodemon server/index.js --trace-deprecation",
+    "start": "node server/index.js",
     "test": "jest --detectOpenHandles"
   },
   "dependencies": {
